@@ -681,7 +681,7 @@ divergence_classification: diffnoncore,transl diffnoncore,lang
 
 
 #AMR_PAIR_28
-divergence_classification: focus,anno
+divergence_classification: focus,lang
 
 # ::id lpp_en.28 ::annotator lpp_1943.500
 # ::tok It is years since I have seen anyone yawning .
@@ -1067,7 +1067,7 @@ divergence_classification:
 
 
 #AMR_PAIR_44
-divergence_classification: focus,anno
+divergence_classification: focus,transl
 
 # ::id lpp_en.44 ::annotator lpp_1943.811
 # ::tok When you want to rest , you will walk - - and the day will last as long as you like . 
