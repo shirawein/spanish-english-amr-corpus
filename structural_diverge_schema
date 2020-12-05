@@ -1,6 +1,7 @@
 Structural Divergence -> Type of Divergence & Cause of Divergence
 
-Type of Divergence -> Different Focus (focus) | Arg Differences
-Arg Differences -> Added/Omitted Arg/Op (omit) | Different Arg/Op Attribute(s) (attr) | Different Arg/Op Chosen (diffarg)
+Type of Divergence -> Different Focus (focus) | Arg Differences | Non-Core Role Differences
+Arg Differences -> Added/Omitted Arg (omitarg) | Different Arg Chosen (diffarg)
+Non-Core Role Differences -> Added/Omitted Non-Core Role (omitnoncore) | Different Non-Core Role(s) Chosen (attr)
 
 Cause of Divergence -> Due To Translation Choice (transl) | Due To Annotation Choice (anno) | Inherent to Language Difference (lang)
