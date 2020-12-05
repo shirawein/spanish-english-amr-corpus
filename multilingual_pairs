@@ -99,7 +99,7 @@ divergence_classification:
 	
 	
 #AMR_PAIR_5
-divergence_classification: attr,lang
+divergence_classification: omitnonarg,lang omitnonarg,lang
 
 # ::id lpp_en.5 ::annotator lpp_1943.118
 # ::tok That is funny !   
@@ -113,7 +113,7 @@ divergence_classification: attr,lang
 	
 	
 #AMR_PAIR_6
-divergence_classification: type,cause
+divergence_classification: focus,transl
 
 # ::id lpp_en.6 ::annotator lpp_1943.122 
 # ::tok Which is your planet ?
@@ -130,7 +130,7 @@ divergence_classification: type,cause
 	
 	
 #AMR_PAIR_7
-divergence_classification: type,cause
+divergence_classification: omitarg,anno
 
 # ::id lpp_en.7 ::annotator lpp_1943.130 
 # ::tok My little man , where do you come from ? 
@@ -155,7 +155,7 @@ divergence_classification: type,cause
 	
 
 #AMR_PAIR_8
-divergence_classification: type,cause
+divergence_classification: focus,anno
 
 # ::id lpp_en.8 ::annotator lpp_1943.150
 # ::tok When an astronomer discovers one of these he does not give it a name , but only a number .  
@@ -195,7 +195,7 @@ divergence_classification: type,cause
 				
 				
 #AMR_PAIR_9
-divergence_classification: type,cause
+divergence_classification: diffarg,anno
 
 # ::id lpp_en.9 ::annotator lpp_1943.181
 # ::tok Children should always show great forbearance toward grown - up people . 
@@ -221,7 +221,7 @@ divergence_classification: type,cause
 	
 	
 #AMR_PAIR_10
-divergence_classification: type,cause
+divergence_classification: diffarg,anno
 
 # ::id lpp_en.10 ::annotator lpp_1943.182
 # ::tok But certainly , for us who understand life , figures are a matter of indifference . 
@@ -247,7 +247,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_11
-divergence_classification: type,cause
+divergence_classification: switch,anno
 
 # ::id lpp_en.11 ::annotator lpp_1943.190
 # ::tok To forget a friend is sad . 
@@ -267,7 +267,7 @@ divergence_classification: type,cause
 	
 	
 #AMR_PAIR_12
-divergence_classification: type,cause				
+divergence_classification: diffarg,anno				
 
 # ::id lpp_en.12 ::annotator lpp_1943.191
 # ::tok Not every one has had a friend . 
@@ -290,7 +290,7 @@ divergence_classification: type,cause
 			
 	
 #AMR_PAIR_13
-divergence_classification: type,cause				
+divergence_classification: diffarg,anno				
 
 # ::id lpp_en.13 ::annotator lpp_1943.196
 # ::tok But I am not at all sure of success . 
@@ -313,7 +313,8 @@ divergence_classification: type,cause
 	
 	
 #AMR_PAIR_14
-divergence_classification: type,cause	
+#no divergence
+divergence_classification:	
 
 # ::id lpp_en.14 ::annotator lpp_1943.288
 # ::tok But the little prince made no reply . 
@@ -331,7 +332,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_15
-divergence_classification: type,cause	
+divergence_classification: diffnoncore,transl	
 
 # ::id lpp_en.15 ::annotator lpp_1943.300
 # ::tok And I had so little drinking-water left that I had to fear for the worst .
@@ -367,7 +368,7 @@ divergence_classification: type,cause
 							
 							
 #AMR_PAIR_16
-divergence_classification: type,cause	
+divergence_classification: diffnoncore,transl	
 
 # ::id lpp_en.16 ::annotator lpp_1943.394
 # ::tok " I think it is time for breakfast , " she added an instant later . 
@@ -393,7 +394,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_17
-divergence_classification: type,cause	
+divergence_classification: omitnoncore,transl omitnoncore,anno	
 
 # ::id lpp_en.17 ::annotator lpp_1943.438
 # ::tok But , as he said , " One never knows ! "
@@ -413,7 +414,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_18
-divergence_classification: type,cause			
+divergence_classification: focus,anno			
 
 # ::id lpp_en.18 ::annotator lpp_1943.441
 # ::tok Volcanic eruptions are like fires in a chimney . 
@@ -434,7 +435,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_19
-divergence_classification: type,cause	
+#no divergence
+divergence_classification:	
 
 # ::id lpp_en.19 ::annotator lpp_1943.445
 # ::tok He believed that he would never want to return .
@@ -458,7 +460,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_20
-divergence_classification: type,cause	
+#no divergence
+divergence_classification:
 
 # ::id lpp_en.20 ::annotator lpp_1943.454 
 # ::tok I ask your forgiveness . 
@@ -480,7 +483,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_21
-divergence_classification: type,cause	
+#no divergence
+divergence_classification:
 
 # ::id lpp_en.21 ::annotator lpp_1943.477
 # ::tok Now go !
@@ -496,7 +500,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_22
-divergence_classification: type,cause	
+divergence_classification: focus,anno	
 
 # ::id lpp_en.22 ::annotator lpp_1943.482
 # ::tok He began , therefore , by visiting them , in order to add to his knowledge . 
@@ -526,7 +530,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_23
-divergence_classification: type,cause	
+#no divergence
+divergence_classification:	
 
 # ::id lpp_en.23 ::annotator lpp_1943.489
 # ::tok To them , all men are subjects .
@@ -546,7 +551,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_24
-divergence_classification: type,cause	
+divergence_classification: focus,anno	
 
 # ::id lpp_en.24 ::annotator lpp_1943.491
 # ::tok The little prince looked everywhere to find a place to sit down ; but the entire planet was crammed and obstructed by the king 's magnificent ermine robe . 
@@ -594,7 +599,7 @@ divergence_classification: type,cause
 			
 
 #AMR_PAIR_25
-divergence_classification: type,cause	
+divergence_classification: diffarg,anno diffarg,lang	
 
 # ::id lpp_en.25 ::annotator lpp_1943.493
 # ::tok " It is contrary to etiquette to yawn in the presence of a king , " the monarch said to him . 
@@ -620,7 +625,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_26
-divergence_classification: type,cause
+divergence_classification: diffarg,transl omitarg,anno
 
 # ::id lpp_en.26 ::annotator lpp_1943.496
 # ::tok “ I can 't stop myself , " replied the little prince , thoroughly embarrassed .
@@ -650,7 +655,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_27
-divergence_classification: type,cause
+divergence_classification: diffnoncore,transl diffnoncore,lang
 
 # ::id lpp_en.27 ::annotator lpp_1943.497
 # ::tok I have come on a long journey , and I have had no sleep ... 
@@ -676,7 +681,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_28
-divergence_classification: type,cause
+divergence_classification: focus,anno
 
 # ::id lpp_en.28 ::annotator lpp_1943.500
 # ::tok It is years since I have seen anyone yawning .
@@ -702,7 +707,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_29
-divergence_classification: type,cause
+divergence_classification: omitarg,anno diffnoncore,anno
 
 # ::id lpp_en.29 ::annotator lpp_1943.513
 # ::tok He was an absolute monarch .
@@ -720,7 +725,7 @@ divergence_classification: type,cause
 	
 
 #AMR_PAIR_30
-divergence_classification: type,cause
+divergence_classification: omitnoncore,transl
 
 # ::id lpp_en.30 ::annotator lpp_1943.517
 # ::tok " May I sit down ? " came now a timid inquiry from the little prince . 
