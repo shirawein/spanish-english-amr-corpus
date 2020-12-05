@@ -1,3 +1,6 @@
+#AMR_PAIR_1
+divergence_classification: type,cause
+
 # ::id lpp_en.1 ::annotator lpp_1943.43
 # ::tok Thus you can imagine my amazement , at sunrise , when I was awakened by an odd little voice .
 (c / cause-01
@@ -12,7 +15,26 @@
 							:mod (o / odd)
 							:mod (l / little))
 						:ARG1 i))))))
-	
+		
+# ::id lpp_es.1 ::annotator NMA
+# ::tok Por tanto , puedes imaginarte mi asombro cuando una extraña vocecita me despertó al amanecer .
+(c / causar
+	:ARG1 (p / posible
+		:ARG1 (i / imaginar
+			:ARG0 (t / tú)
+			:ARG1 (a / asombrar			
+				:ARG1 (y / yo)
+				:tiempo (a2 / amanecer
+					:tiempo-de (d / despertar
+						:ARG1 y
+						:ARG0 (v / voz
+							:mod (e / extraño)
+							:mod (p2 / pequeño))))))))
+
+
+#AMR_PAIR_2
+divergence_classification: type,cause
+
 # ::id lpp_en.2 ::annotator lpp_1943.64 
 # ::tok He answered me : " That does n't matter . "  
 (a / answer-01
@@ -21,7 +43,19 @@
 	:ARG2 (m2 / matter-01
 		:ARG1 (t / that)
 		:polarity -))
-
+		
+# ::id lpp_es.2 ::annotator NMA
+# ::tok Él me contestó : " Eso no importa " .
+(c / contestar
+	:ARG0 (e / él)
+	:ARG1  (y / yo)
+	:ARG2 (i / importar :polaridad -
+		:ARG1 (e2 / eso)))
+	
+	
+#AMR_PAIR_3
+divergence_classification: type,cause
+		
 # ::id lpp_en.3 ::annotator lpp_1943.65 
 # ::tok Draw me a sheep ...  
 (d / draw-01
@@ -30,6 +64,18 @@
 	:ARG2 (i / i)
 	:mode imperative)
 
+# ::id lpp_es.3 ::annotator NMA
+# ::tok Dibújame una oveja ...
+(d / dibujar
+	:ARG0 (t / tú)
+	:ARG1 (o / oveja)
+	:ARG2 (y / yo)
+	:modo imperativo)
+	
+	
+#AMR_PAIR_4
+divergence_classification: type,cause
+
 # ::id lpp_en.4 ::annotator lpp_1943.72
 # ::tok Where I live , everything is very small .
 (s / small
@@ -37,17 +83,49 @@
 	:domain (e / everything)
 	:location (l2 / live-01
 		:ARG0 (i / i)))
+		
+# ::id lpp_es.4 ::annotator NMA
+# ::tok Todo es muy pequeño donde vivo .
+(p / pequeño
+	:campo (t / todo)
+	:grado (m / muy)
+	:ubicación (v / vivir
+		:ARG0 (y / yo)))
+	
+	
+#AMR_PAIR_5
+divergence_classification: type,cause
 
 # ::id lpp_en.5 ::annotator lpp_1943.118
 # ::tok That is funny !   
 (f2 / funny
 	:domain (t2 / that))
 
+# ::id lpp_es.5 ::annotator NMA
+# ::tok ¡ Qué gracioso !
+(g / gracioso
+	:grado (t / tan))
+	
+	
+#AMR_PAIR_6
+divergence_classification: type,cause
+
 # ::id lpp_en.6 ::annotator lpp_1943.122 
 # ::tok Which is your planet ?
 (p / planet
 	:poss (y / you)
 	:domain (a / amr-unknown))
+
+# ::id lpp_es.6 ::annotator NMA
+# ::tok ¿ De qué planeta eres ?
+(s / ser-de-91
+	:ARG1 (t / tú)
+	:ARG2 (p / planeta
+		:campo (a / amr-desconocido)))
+	
+	
+#AMR_PAIR_7
+divergence_classification: type,cause
 
 # ::id lpp_en.7 ::annotator lpp_1943.130 
 # ::tok My little man , where do you come from ? 
@@ -58,6 +136,21 @@
 	:ARG2 (m / man
 		:mod (l / little)
 		:poss (i / I)))
+		
+# ::id lpp_es.7 ::annotator NMA
+# ::tok ¿ De dónde vienes hombrecito mío ?
+(d / decir
+	:ARG0 y
+	:ARG1 (v / venir
+		:ARG1 (h / hombre
+			:mod (p / pequeño)
+			:posee (y / yo))
+		:ARG3 (a / amr-desconocido))
+	:ARG2 h)
+	
+
+#AMR_PAIR_8
+divergence_classification: type,cause
 
 # ::id lpp_en.8 ::annotator lpp_1943.150
 # ::tok When an astronomer discovers one of these he does not give it a name , but only a number .  
@@ -75,6 +168,29 @@
 		:ARG2 (n3 / name-01
 			:ARG0 a
 			:ARG1 t)))
+			
+# ::id lpp_es.8 ::annotator NMA
+# ::tok Cuando un astrónomo descubre uno de estos , no le asigna un nombre sino solamente un número .
+(e / en-vez-de-91
+	:ARG1 (a3 / asignar
+		:ARG0 a
+		:ARG1 (n2 / número)
+		:ARG2 c
+		:manera (s / solamente))
+	:ARG2 (a2 / asignar
+		:ARG0  a
+		:ARG1  (n / nombre)
+		:ARG2  c)
+	:tiempo (d / descubrir
+		:ARG0 (a / astrónomo)
+		:ARG1 (c / cosa
+			:cant 1
+			:ARG1-de (i / incluir-91
+				:ARG2 (e2 / esto :masc e2)))))
+				
+				
+#AMR_PAIR_9
+divergence_classification: type,cause
 
 # ::id lpp_en.9 ::annotator lpp_1943.181
 # ::tok Children should always show great forbearance toward grown - up people . 
@@ -85,6 +201,22 @@
 			:mod (g / great))
 		:ARG2 (g2 / grown-up)
 		:time (a / always)))
+		
+# ::id lpp_es.9 ::annotator NMA
+# ::tok Los niños siempre deberían mostrarse muy pacientes con los mayores .
+(r / recomendar
+	:ARG1 (m / mostrar
+		:ARG0 (n / niño)
+		:ARG1 (p / paciencia
+			:grado (m2 / mucho))
+		:ARG2 (p2 / persona
+			:mod (e / edad
+				:grado (m3 / más)))
+		:tiempo (s / siempre)))
+	
+	
+#AMR_PAIR_10
+divergence_classification: type,cause
 
 # ::id lpp_en.10 ::annotator lpp_1943.182
 # ::tok But certainly , for us who understand life , figures are a matter of indifference . 
@@ -95,6 +227,22 @@
 				:ARG0-of (u / understand-01
 					:ARG1 (l / life)))
 			:ARG2 (f2 / figure))))
+			
+# ::id lpp_es.10 ::annotator NMA
+# ::tok Pero sin duda , para los que entendemos la vida , las cifras son asuntos de indiferencia .
+(c / contrastar
+	:ARG2 (o / opinar
+		:ARG0 (p / persona
+			:ARG0-de (e / entender
+				:ARG1 (v / vida)))
+		:ARG1 (a / asunto
+			:mod (i / indiferencia)
+			:campo (c / cifra)))
+	:mod (d / dudar :polaridad -))
+
+
+#AMR_PAIR_11
+divergence_classification: type,cause
 
 # ::id lpp_en.11 ::annotator lpp_1943.190
 # ::tok To forget a friend is sad . 
@@ -103,6 +251,18 @@
 		:ARG1 (p / person
 			:ARG0-of (h / have-rel-role-91
 				:ARG2 (f / friend)))))
+				
+# ::id lpp_es.11 ::annotator NMA
+# ::tok Olvidar a un amigo es triste .
+(t / triste
+	:campo (o / olvidar
+		:ARG1 (p / persona
+			:ARG0-de (t2 / tener-rol-rel-91
+	        		:ARG2 (a / amigo)))))
+	
+	
+#AMR_PAIR_12
+divergence_classification: type,cause				
 
 # ::id lpp_en.12 ::annotator lpp_1943.191
 # ::tok Not every one has had a friend . 
@@ -112,6 +272,20 @@
 		:ARG0-of (h2 / have-rel-role-91
 			:ARG1 e
 			:ARG2 (f / friend))))
+			
+# ::id lpp_es.12 ::annotator NMA
+# ::tok No todos han tenido un amigo .
+(t / tener :polaridad -
+	:ARG0 (p / persona
+		:mod (t2 / todo))
+	:ARG1 (p2 / persona
+		:ARG0-de (t3 / tener-rol-rel-91
+			:ARG1 p
+	               	:ARG2 (a / amigo))))
+			
+	
+#AMR_PAIR_13
+divergence_classification: type,cause				
 
 # ::id lpp_en.13 ::annotator lpp_1943.196
 # ::tok But I am not at all sure of success . 
@@ -122,6 +296,19 @@
 			:op1 (a2 / all))
 		:ARG1-of (s2 / succeed-01
 			:ARG0 i)))
+			
+# ::id lpp_es.13 ::annotator NMA
+# ::tok Pero no tengo el éxito asegurado para nada .
+(c /  contrastar
+	:ARG2 (t / tener :polaridad -
+		:ARG0 (y / yo)
+		:ARG1 (e / éxito)
+		:mod (s / seguro)
+		:grado (p / para-nada)))
+	
+	
+#AMR_PAIR_14
+divergence_classification: type,cause	
 
 # ::id lpp_en.14 ::annotator lpp_1943.288
 # ::tok But the little prince made no reply . 
@@ -129,6 +316,17 @@
 	:ARG2 (r / reply-01 :polarity -
 		:ARG0 (p / prince
 			:mod (l / little))))
+			
+# ::id lpp_es.14 ::annotator NMA
+# ::tok Pero el principito no respondió .
+(c / contrastar
+	:ARG2 (r / responder :polaridad -
+		:ARG0 (p / príncipe
+			:mod (p2 / pequeño))))
+
+
+#AMR_PAIR_15
+divergence_classification: type,cause	
 
 # ::id lpp_en.15 ::annotator lpp_1943.300
 # ::tok And I had so little drinking-water left that I had to fear for the worst .
@@ -146,6 +344,25 @@
 				:ARG0 i
 				:ARG1 (b / bad-07
 					:degree (m / most))))))
+					
+# ::id lpp_es.15 ::annotator NMA
+# ::tok Y me quedaba tan poca agua potable que me temía lo peor .
+(y2 / y
+	:op1 (c / causar
+		:ARG0 (q / quedar
+			:ARG1 (a / agua
+				:mod (p / potable)
+				:mod (p2 / poco
+					:grado (t / tan)))
+			:ARG2 (y / yo))
+		:ARG1 (t / temer
+			:ARG0 y
+			:ARG1 (m / malo
+				:grado (m2 / máximo)))))
+							
+							
+#AMR_PAIR_16
+divergence_classification: type,cause	
 
 # ::id lpp_en.16 ::annotator lpp_1943.394
 # ::tok " I think it is time for breakfast , " she added an instant later . 
@@ -158,6 +375,20 @@
 	:time (l / late
 		:degree (m / more
 			:quant (i / instant))))
+			
+# ::id lpp_es.16 ::annotator NMA
+# ::tok " Creo que es la hora de desayunar " , añadió ella al instante .
+(a / añadir
+	:ARG0 (e / ella)
+	:ARG1 (c / creer
+		:ARG0 e
+		:ARG1 (h / hora
+			:propósito (d / desayunar)))
+	:tiempo (a2 / al-instante))
+
+
+#AMR_PAIR_17
+divergence_classification: type,cause	
 
 # ::id lpp_en.17 ::annotator lpp_1943.438
 # ::tok But , as he said , " One never knows ! "
@@ -166,6 +397,18 @@
 		:ARG0 (h / he)
 		:ARG1 (k / know-01 :polarity -
 			:ARG0 (o / one))))
+			
+# ::id lpp_es.17 ::annotator NMA
+# ::tok Pero , como dijo él , " ¡ Nunca se sabe ! " .
+(c / contrastar
+	:ARG2 (d / decir
+		:ARG0 (e / él)
+		:ARG1 (s / saber :polaridad -
+			:tiempo (n /nunca))))
+
+
+#AMR_PAIR_18
+divergence_classification: type,cause			
 
 # ::id lpp_en.18 ::annotator lpp_1943.441
 # ::tok Volcanic eruptions are like fires in a chimney . 
@@ -174,6 +417,19 @@
 	:ARG1-of (r / resemble-01
 		:ARG2 (f / fire
 			:location (c / chimney))))
+			
+# ::id lpp_es.18 ::annotator NMA
+# ::tok Las erupciones volcánicas son como el fuego de una chimenea .
+(p / parecer
+	:ARG0 (e / erupción
+		:mod (v / volcánico))
+	:ARG1 (s / ser-de-91
+		:ARG1 (f / fuego)
+		:ARG2 (c / chimenea)))
+
+
+#AMR_PAIR_19
+divergence_classification: type,cause	
 
 # ::id lpp_en.19 ::annotator lpp_1943.445
 # ::tok He believed that he would never want to return .
@@ -184,6 +440,20 @@
 		:ARG1 (r / return-01
 			:ARG1 h)
 		:time (e / ever)))
+		
+# ::id lpp_es.19 ::annotator NMA
+# ::tok El creyó que nunca querría volver .
+(c / creer
+	:ARG0 (e / él)
+	:ARG1 (q / querer :polaridad -
+		:ARG0 e
+		:ARG1 (v / volver
+			:ARG1 e)
+		:tiempo (n / nunca)))
+
+
+#AMR_PAIR_20
+divergence_classification: type,cause	
 
 # ::id lpp_en.20 ::annotator lpp_1943.454 
 # ::tok I ask your forgiveness . 
@@ -193,6 +463,19 @@
 		:ARG0 y
 		:ARG1 i)
 	:ARG2 (y / you))
+	
+# ::id lpp_es.20 ::annotator NMA
+# ::tok Te pido perdón .
+(p / pedir
+	:ARG0 (y / yo)
+	:ARG1 (p2 / perdonar
+		:ARG0 t
+		:ARG1 y)
+	:ARG2 (t / tú))
+
+
+#AMR_PAIR_21
+divergence_classification: type,cause	
 
 # ::id lpp_en.21 ::annotator lpp_1943.477
 # ::tok Now go !
@@ -200,6 +483,16 @@
 	:ARG0 (y / you)
 	:time (n / now))
 	
+# ::id lpp_es.21 ::annotator NMA
+# ::tok ¡ Ahora vete !
+(i / ir :modo imperativo
+	:ARG0 (t / tú)
+	:tiempo (a / ahora))
+
+
+#AMR_PAIR_22
+divergence_classification: type,cause	
+
 # ::id lpp_en.22 ::annotator lpp_1943.482
 # ::tok He began , therefore , by visiting them , in order to add to his knowledge . 
 (b / begin-01
@@ -212,6 +505,23 @@
 		:ARG0 v
 		:ARG2 (k / knowledge
 			:poss h)))
+			
+# ::id lpp_es.22 ::annotator NMA
+# ::tok Él comenzó , por lo tanto , a visitarlos para ampliar su conocimiento .
+(c / causar
+	:ARG1 (c2 / comenzar
+		:ARG0 (e / él)
+		:ARG1 (v / visitar
+			:ARG0 e
+			:ARG1 (e2 / entidad :sinespecificar (l/lo)))
+		:propósito (a / ampliar
+			:ARG0 e
+			:ARG1 (c3 / conocimiento
+				:posee e))))
+
+
+#AMR_PAIR_23
+divergence_classification: type,cause	
 
 # ::id lpp_en.23 ::annotator lpp_1943.489
 # ::tok To them , all men are subjects .
@@ -220,6 +530,18 @@
 	:ARG1 (s2 / subject
 		:domain (m2 / man
 			:mod (a2 / all))))
+
+# ::id lpp_es.23 ::annotator NMA
+# ::tok Para ellos , todos los hombres son súbditos .
+(o / opinar
+	:ARG0 (e / ellos)
+	:ARG1 (s / súbdito
+		:campo (h / hombre
+			:mod (t / todo))))
+
+
+#AMR_PAIR_24
+divergence_classification: type,cause	
 
 # ::id lpp_en.24 ::annotator lpp_1943.491
 # ::tok The little prince looked everywhere to find a place to sit down ; but the entire planet was crammed and obstructed by the king 's magnificent ermine robe . 
@@ -242,6 +564,33 @@
 				:ARG1 p))
 		:location (e / everywhere)))
 
+# ::id lpp_es.24 ::annotator NMA
+# ::tok El principito buscó un sitio para sentarse por todos lados , pero todo el planeta estaba cubierto y obstruido por el magnífico manto de armiño del rey .
+(c / contrastar
+	:ARG0 (b / buscar
+		:ARG0 (p / príncipe
+			:mod (p2 / pequeño))
+		:ARG2 (s / sitio
+			:propósito (s / sentar
+				:ARG1 p))
+		:ARG1 (l / lado
+			:mod (t / todo)))
+	:ARG1 (y / y
+		:op1 (c2 / cubrir
+			:ARG1 (p3 / planeta
+				:mod (t2 / todo))
+			:ARG2 (m / manto
+				:mod (m2 / magnífico)
+				:consistir-en (a / armiño)
+				:posee (r / rey)))
+		:op2 (o / obstruir
+			:ARG0 m
+			:ARG1 p3)))
+			
+
+#AMR_PAIR_25
+divergence_classification: type,cause	
+
 # ::id lpp_en.25 ::annotator lpp_1943.493
 # ::tok " It is contrary to etiquette to yawn in the presence of a king , " the monarch said to him . 
 (s / say-01
@@ -251,6 +600,22 @@
 			:location (k / king))
 		:ARG2 (e / etiquette))
 	:ARG2 (h / he))
+	
+# ::id lpp_es.25 ::annotator NMA
+# ::tok " Bostezar en presencia del rey contradice el protocolo " , le dijo el monarca .
+(d / decir
+	:ARG0 (m / monarca)
+	:ARG1 (c / contradecir
+		:ARG0 (b / bostezar
+			:ubicación (p / presencia
+				:posee (r / rey)))
+		:ARG1 (p2 / protocolo))
+	:ARG2 (e / entidad
+		:sinespecificar (l / le)))
+
+
+#AMR_PAIR_26
+divergence_classification: type,cause
 
 # ::id lpp_en.26 ::annotator lpp_1943.496
 # ::tok “ I can 't stop myself , " replied the little prince , thoroughly embarrassed .
@@ -265,6 +630,23 @@
 		:ARG1 p
 		:degree (t / thorough)))
 
+# ::id lpp_es.26 ::annotator NMA
+# ::tok " No puedo evitarlo " , respondió el principito , verdaderamente avergonzado .
+(r / responder
+	:ARG0 (p / príncipe
+		:mod (p2 / pequeño))
+	:ARG2 (p3/ posible :polaridad -
+		:ARG1 (e / evitar
+			:ARG0 p
+			:ARG1 (e / entidad
+				:sinespecificar (l / lo))))
+	:mod (a / avergonzado
+		:manera (v / verdadero)))
+
+
+#AMR_PAIR_27
+divergence_classification: type,cause
+
 # ::id lpp_en.27 ::annotator lpp_1943.497
 # ::tok I have come on a long journey , and I have had no sleep ... 
 (a / and
@@ -276,6 +658,21 @@
 	:op2 (s / sleep-01 :polarity -
 		:ARG0 i))
 
+# ::id lpp_es.27 ::annotator NMA
+# ::tok He tenido un largo viaje y no he dormido nada ...
+(y / y
+	:op1 (t / tener
+		:ARG0 (y2 / yo)
+		:ARG1 (v / viaje
+			:mod (l / largo)))
+	:op2 (d / dormir :polaridad -
+		:ARG0 y2
+		:mod (n / nada)))
+
+
+#AMR_PAIR_28
+divergence_classification: type,cause
+
 # ::id lpp_en.28 ::annotator lpp_1943.500
 # ::tok It is years since I have seen anyone yawning .
 (p / pass-03
@@ -286,11 +683,39 @@
 			:ARG1 (a / anyone
 				:ARG0-of (y / yawn-01)))))
 
+# ::id lpp_es.28 ::annotator NMA
+# ::tok Hace años que no veo a nadie bostezar .
+(v / ver :polaridad -
+	:ARG0 (y / yo)
+	:ARG1 (b / bostezar
+		:ARG0 (n / nadie))
+	:tiempo (d / desde
+		:op1 (c / cantidad-temporal
+			:cant (m / más-de
+				:op1 1)
+			:unidad (a / año)))) 
+
+
+#AMR_PAIR_29
+divergence_classification: type,cause
+
 # ::id lpp_en.29 ::annotator lpp_1943.513
 # ::tok He was an absolute monarch .
 (m / monarch
 	:mod (a / absolute)
 	:domain (h2 / he))
+
+# ::id lpp_es.29 ::annotator NMA
+# ::tok Era un monarca absoluto .
+(m / monarca
+	:masc m
+	:campo (e / entidad
+		:sinnombre (s / sinnombre))
+	:mod (a / absoluto))
+	
+
+#AMR_PAIR_30
+divergence_classification: type,cause
 
 # ::id lpp_en.30 ::annotator lpp_1943.517
 # ::tok " May I sit down ? " came now a timid inquiry from the little prince . 
@@ -303,16 +728,52 @@
 	:manner (t / timid)
 	:time (n / now))
 
+# ::id lpp_es.30 ::annotator NMA
+# ::tok ¿ Me puedo sentar ? , preguntó tímidamente el principito .
+(p / preguntar
+	:ARG0 (p2/ príncipe
+		:mod (p3 / pequeño))
+	:ARG1 (p4 / permitir :modo imperativo
+		:ARG1 (s / sentar
+			:ARG1 p2))
+	:manera (t / tímido))
+
+
+#AMR_PAIR_31
+divergence_classification: type,cause
+
 # ::id lpp_en.31 ::annotator lpp_1943.564
 # ::tok Do not go . 
 (g / go-02 :polarity - :mode imperative
 	:ARG0 (y / you))
+	
+# ::id lpp_es.31 ::annotator NMA
+# ::tok No te vayas .
+(i / ir :polaridad - 
+	:modo imperativo
+	:ARG0 (t / tú))
+	
+
+#AMR_PAIR_32
+divergence_classification: type,cause
 
 # ::id lpp_en.32 ::annotator lpp_1943.568 
 # ::tok But there is nobody here to judge !
 (n / nobody
 	:location (h / here)
 	:ARG1-of (j / judge-01))
+	
+# ::id lpp_es.32 ::annotator NMA
+# ::tok ¡ Pero aquí no hay nadie a quien juzgar !
+(c / contrastar 
+	:ARG2 (n / nadie
+		:polaridad -
+		:ARG1-de (j / juzgar)
+		:ubicación (a / aquí)))
+
+
+#AMR_PAIR_33
+divergence_classification: type,cause
 
 # ::id lpp_en.33 ::annotator lpp_1943.578
 # ::tok It is much more difficult to judge oneself than to judge others .
@@ -324,6 +785,21 @@
 		:ARG1 o2)
 	:compared-to (j2 / judge-01
 		:ARG1 (o / other)))
+		
+# ::id lpp_es.33 ::annotator NMA
+# ::tok Es mucho más difícil juzgarse a sí mismo que juzgar a otros .
+(d / difícil
+	:grado (m / más
+		:grado (m2 / mucho))
+	:campo (j / juzgar
+		:ARG0 (u / uno)
+		:ARG1 u)
+	:comparado-con (j2 / juzgar
+		:ARG1 (o / otro)))
+
+
+#AMR_PAIR_34
+divergence_classification: type,cause
 
 # ::id lpp_en.34 ::annotator lpp_1943.610
 # ::tok That is a queer hat you are wearing . 
@@ -331,6 +807,18 @@
 	:mod (q2 / queer)
 	:domain (t2 / that)
 	:ARG1-of (w2 / wear-01))
+	
+# ::id lpp_es.34 ::annotator NMA
+# ::tok ¡ Qué sombrero tan raro llevas !
+(s / sombrero
+	:mod (r / raro
+		:grado (t / tan))
+	:ARG1-de (l / llevar
+		:ARG0 (t2 / tú)))
+
+
+#AMR_PAIR_35
+divergence_classification: type,cause
 
 # ::id lpp_en.35 ::annotator lpp_1943.624
 # ::tok Conceited people never hear anything but praise . 
@@ -340,6 +828,20 @@
 	:ARG1 (a / anything
 		:concession (p2 / praise-01))
 	:time (e / ever))
+	
+# ::id lpp_es.35 ::annotator NMA
+# ::tok Los vanidosos nunca escuchan nada que no sea elogios .
+(e / escuchar :polaridad -
+	:ARG0 (p / persona
+		:mod (v / vanidoso))
+	:ARG1 (n / nada)
+	:tiempo (n2 / nunca)
+	:condición (e2 / elogio :polaridad -
+		:campo n))
+
+
+#AMR_PAIR_36
+divergence_classification: type,cause
 
 # ::id lpp_en.36 ::annotator lpp_1943.627
 # ::tok To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . 
@@ -361,6 +863,29 @@
 			:location (p2 / planet
 				:mod (t / this)))))
 
+# ::id lpp_es.36 ::annotator NMA
+# ::tok Admirar significa que me consideras el hombre más guapo , el mejor vestido , el más rico y el más inteligente del planeta .
+(s / significar
+	:ARG1 (a / admirar)
+	:ARG0 (c / considerar
+		:ARG0 (t / tú)
+		:ARG1 (y / yo)
+		:ARG2 (h / hombre
+			:mod (g / guapo
+				:grado (m / máximo))
+			:ARG1-de (v / vestir
+				:manera (b / bien
+					:grado (m2 / máximo)))
+			:mod (r / rico
+				:grado (m3 / máximo))
+			:mod (i2 / inteligente
+				:grado (m4 / máximo))
+			:ubicación (p / planeta))))
+			
+			
+#AMR_PAIR_37
+divergence_classification: type,cause
+
 # ::id lpp_en.37 ::annotator lpp_1943.638
 # ::tok " I am drinking , " replied the tippler , with a lugubrious air . 
 (r / reply-01
@@ -369,6 +894,19 @@
 	:ARG2 (d / drink-01
 		:ARG0 p)
 	:manner (l / lugubrious))
+	
+# ::id lpp_es.37 ::annotator NMA
+# ::tok " Estoy bebiendo " , respondió el bebedor , con aire lúgubre .
+(r / responder
+	:ARG0 (p / persona
+		:ARG0-de (b / beber))
+	:ARG2 (b2 / beber
+		:ARG0 p)
+	:manera (l / lúgubre))
+
+
+#AMR_PAIR_38
+divergence_classification: type,cause
 
 # ::id lpp_en.38 ::annotator lpp_1943.649
 # ::tok The fourth planet belonged to a businessman . 
@@ -377,6 +915,18 @@
 		:ord (o / ordinal-entity :value 4))
 	:ARG1 (b3 / businessman))
 
+# ::id lpp_es.38 ::annotator NMA
+# ::tok El cuarto planeta era de un hombre de negocios .
+(p / pertenecer
+	:ARG0 (p2 / planeta
+		:ord (e / entidad-ordinal :valor 4))
+	:ARG1 (h / hombre
+		:mod (n / negocio)))
+
+
+#AMR_PAIR_39
+divergence_classification: type,cause
+
 # ::id lpp_en.39 ::annotator lpp_1943.667
 # ::tok I have so much to do ! 
 (o / obligate-01
@@ -384,6 +934,17 @@
 	:ARG2 (d / do-02
 		:ARG1 (m / much
 			:degree (s / so))))
+
+# ::id lpp_es.39 ::annotator NMA
+# ::tok ¡ Tengo tanto que hacer !
+(o / obligar
+	:ARG1 (y / yo)
+	:ARG2 (h / hacer
+		:ARG1 (t / tanto)))
+
+
+#AMR_PAIR_40
+divergence_classification: type,cause
 
 # ::id lpp_en.40 ::annotator lpp_1943.682
 # ::tok The businessman suddenly realized that there was no hope of being left in peace until he answered this question . 
@@ -400,6 +961,29 @@
 					:ARG1 (t / this)))))
 	:manner (s / sudden))
 
+# ::id lpp_es.40 ::annotator NMA
+# ::tok De repente , el hombre de negocios se dio cuenta que no tenía ninguna esperanza de que lo dejaran en paz hasta que contestase esta pregunta .
+(p / percatar
+	:ARG0 (h / hombre
+		:mod (n / negocio))
+	:ARG1 (e / esperar :polaridad -
+		:ARG0 h
+		:ARG1 (d2 / dejar
+			:ARG0 (e2 / entidad
+				:sinnombre (s / sinnombre))
+			:ARG1 (p2 / paz
+				:campo h))
+		:time (h2 / hasta
+			:op1 (c / contestar
+				:ARG0 h
+				:ARG2 (p3 / pregunta
+					:mod (e2 / esto)))))
+	:manera (d / de-repente))
+
+
+#AMR_PAIR_41
+divergence_classification: type,cause
+
 # ::id lpp_en.41 ::annotator lpp_1943.722
 # ::tok When you find a diamond that belongs to nobody , it is yours . 
 (b / belong-01
@@ -410,6 +994,21 @@
 		:ARG1 (d / diamond
 			:ARG0-of (b2 / belong-01
 				:ARG1 (n / nobody)))))
+
+# ::id lpp_es.41 ::annotator NMA
+# ::tok Cuando encuentras un diamante que no le pertenece a nadie , es tuyo .
+(p2 / pertenecer
+	:ARG0 d
+	:ARG1 t
+	:condición (e / encontrar
+		:ARG1 (d / diamante
+			:ARG0-de (p / pertenecer :polaridad -
+				:ARG1 (n / nadie)))
+		:ARG0 (t / tú)))
+
+
+#AMR_PAIR_42
+divergence_classification: type,cause
 
 # ::id lpp_en.42 ::annotator lpp_1943.757
 # ::tok There was just enough room on it for a street lamp and a lamplighter . 
@@ -424,10 +1023,35 @@
 	:extent (e / enough
 		:mod (j / just)))
 
+# ::id lpp_es.42 ::annotator NMA
+# ::tok Tenía el espacio justo para una farola y un farolero .
+(t / tener
+	:ARG0 (e / entidad
+		:sinnombre (s / sinnombre))
+	:ARG1 (e2 / espacio
+		:mod (j / justo)
+		:ARG2-de (c / caber
+			:ARG1 (y / y
+				:op1 (f / farola)
+				:op2 (f2 / farolero)))))
+
+
+#AMR_PAIR_43
+divergence_classification: type,cause
+
 # ::id lpp_en.43 ::annotator lpp_1943.779
 # ::tok Orders are orders . 
 (o / order
 	:domain (o2 / order))
+	
+# ::id lpp_es.43 ::annotator NMA
+# ::tok Las órdenes son órdenes .
+(o / órden
+	:campo (o2 / órden))
+
+
+#AMR_PAIR_44
+divergence_classification: type,cause
 
 # ::id lpp_en.44 ::annotator lpp_1943.811
 # ::tok When you want to rest , you will walk - - and the day will last as long as you like . 
@@ -445,6 +1069,24 @@
                         :compared-to (l2 / like-02
                               :ARG0 y)))))
 
+# ::id lpp_es.44 ::annotator NMA
+# ::tok Caminarás cuando quieras descansar y el día durará tanto como quieras .
+(d / durar
+	:ARG1 (d2 / día)
+	:ARG2 (t / tanto
+		:grado (i / igual)
+		:comparado-con (q / querer
+			:ARG0 (t2 / tú)))
+	:condición (c / caminar
+		:ARG0 t2
+		:tiempo (q2 / querer
+			:ARG0 t2
+			:ARG1 (d3 / descansar))))
+
+
+#AMR_PAIR_45
+divergence_classification: type,cause
+
 # ::id lpp_en.45 ::annotator lpp_1943.815
 # ::tok " I am unlucky , " said the lamplighter . 
 (s / say-01
@@ -454,12 +1096,36 @@
 	:ARG1 (l3 / lucky
 		:domain p
 		:polarity -))
+		
+# ::id lpp_es.45 ::annotator NMA
+# ::tok " Soy desafortunado " , dijo el farolero .
+(d / decir
+	:ARG0 (f / farolero)
+	:ARG1 (a / afortunado
+		:campo (y / yo)
+		:polaridad -))
+
+
+#AMR_PAIR_46
+divergence_classification: type,cause
 
 # ::id lpp_en.46 ::annotator lpp_1943.944
 # ::tok It is unnecessary . 
 (n / need-01
 	:ARG1 (i / it)
 	:polarity -)
+	
+# ::id lpp_es.46 ::annotator NMA
+# ::tok Es innecesario .
+(n / necesitar
+	:ARG1 (e / entidad
+		:sinnombre (s / sinnombre)
+		:masc e)
+	:polaridad -)
+
+
+#AMR_PAIR_47
+divergence_classification: type,cause
 
 # ::id lpp_en.47 ::annotator lpp_1943.1046
 # ::tok " I am right here , " the voice said , " under the apple tree . " 
@@ -472,6 +1138,20 @@
 					:mod (a / apple)))
 			:mod (r / right))))
 
+# ::id lpp_es.47 ::annotator NMA
+# ::tok " Estoy aquí " , dijo la voz , " debajo del manzano " .
+(d / decir
+	:ARG0 (v / voz)
+	:ARG1 (e / estar-ubicado-en-91
+		:ARG1 (y / yo)
+		:ARG2 (a / aquí
+			:ubicación (d2 / debajo
+				:op1 (m / manzano)))))
+
+
+#AMR_PAIR_48
+divergence_classification: type,cause
+
 # ::id lpp_en.48 ::annotator lpp_1943.1189
 # ::tok " They are in a great hurry , " said the little prince .  
 (s / say-01
@@ -480,6 +1160,20 @@
 	:ARG1 (h / hurry-01
 		:ARG1 (t / they)
 		:degree (g / great)))
+		
+# ::id lpp_es.48 ::annotator NMA
+# ::tok " Tienen mucha prisa " , dijo el principito .
+(d / decir
+	:ARG0 (p / príncipe
+		:mod (p2 / pequeño))
+	:ARG1 (a / apresurado
+		:campo (e / entidad 
+			:sinnombre (s / sinnombre))
+		:grado (m / muy)))
+
+
+#AMR_PAIR_49
+divergence_classification: type,cause
 
 # ::id lpp_en.49 ::annotator lpp_1943.1213
 # ::tok Computations have been made by experts .
@@ -488,6 +1182,16 @@
 		:ARG1-of (e / expert-01))
 	:ARG1 (t / thing
 		:ARG1-of (c / compute-01)))
+		
+# ::id lpp_es.49 ::annotator NMA
+# ::tok Los expertos han hecho los cálculos .
+(c / calcular
+	:ARG0 (p / persona
+		:mod (e / experto)))
+
+
+#AMR_PAIR_50
+divergence_classification: type,cause
 
 # ::id lpp_en.50 ::annotator lpp_1943.1298
 # ::tok Give me some of it to drink ... 
@@ -502,3 +1206,11 @@
 	:purpose (d / drink-01
 		:ARG0 i2
 		:ARG1 t))
+
+# ::id lpp_es.50 ::annotator NMA
+# ::tok Dame algo de beber ...
+(d / dar :modo imperativo
+	:ARG0 (t / tú)
+	:ARG2 (y / yo)
+	:ARG1 (a / algo
+		:propósito (b / beber)))
