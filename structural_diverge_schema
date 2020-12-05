@@ -1,6 +1,6 @@
 Structural Divergence -> Type of Divergence & Cause of Divergence
 
 Type of Divergence -> Different Focus (focus) | Arg Differences
-Arg Differences -> Added\Omitted Arg (omit) | Different Arg Attribute(s) (attr) | Different Arg Chosen (diffarg)
+Arg Differences -> Added/Omitted Arg/Op (omit) | Different Arg/Op Attribute(s) (attr) | Different Arg/Op Chosen (diffarg)
 
 Cause of Divergence -> Due To Translation Choice (transl) | Due To Annotation Choice (anno) | Inherent to Language Difference (lang)
