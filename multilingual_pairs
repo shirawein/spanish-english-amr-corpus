@@ -1,5 +1,6 @@
 #AMR_PAIR_1
-divergence_classification: type,cause
+# no divergence
+divergence_classification:
 
 # ::id lpp_en.1 ::annotator lpp_1943.43
 # ::tok Thus you can imagine my amazement , at sunrise , when I was awakened by an odd little voice .
@@ -33,7 +34,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_2
-divergence_classification: type,cause
+#no divergence
+divergence_classification: 
 
 # ::id lpp_en.2 ::annotator lpp_1943.64 
 # ::tok He answered me : " That does n't matter . "  
@@ -49,12 +51,14 @@ divergence_classification: type,cause
 (c / contestar
 	:ARG0 (e / él)
 	:ARG1  (y / yo)
-	:ARG2 (i / importar :polaridad -
+	:ARG2 (i / importar
+		:polaridad -
 		:ARG1 (e2 / eso)))
 	
 	
 #AMR_PAIR_3
-divergence_classification: type,cause
+#no divergence
+divergence_classification: 
 		
 # ::id lpp_en.3 ::annotator lpp_1943.65 
 # ::tok Draw me a sheep ...  
@@ -74,7 +78,8 @@ divergence_classification: type,cause
 	
 	
 #AMR_PAIR_4
-divergence_classification: type,cause
+#no divergence
+divergence_classification: 
 
 # ::id lpp_en.4 ::annotator lpp_1943.72
 # ::tok Where I live , everything is very small .
@@ -94,7 +99,7 @@ divergence_classification: type,cause
 	
 	
 #AMR_PAIR_5
-divergence_classification: type,cause
+divergence_classification: attr,lang
 
 # ::id lpp_en.5 ::annotator lpp_1943.118
 # ::tok That is funny !   
