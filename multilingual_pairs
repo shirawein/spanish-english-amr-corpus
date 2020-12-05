@@ -99,7 +99,7 @@ divergence_classification:
 	
 	
 #AMR_PAIR_5
-divergence_classification: omitnonarg,lang omitnonarg,lang
+divergence_classification: omitnoncore,lang omitnoncore,lang
 
 # ::id lpp_en.5 ::annotator lpp_1943.118
 # ::tok That is funny !   
