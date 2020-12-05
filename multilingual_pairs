@@ -707,7 +707,7 @@ divergence_classification: focus,anno
 
 
 #AMR_PAIR_29
-divergence_classification: omitarg,anno diffnoncore,anno
+divergence_classification: omitarg,lang diffnoncore,anno
 
 # ::id lpp_en.29 ::annotator lpp_1943.513
 # ::tok He was an absolute monarch .
@@ -750,11 +750,13 @@ divergence_classification: omitnoncore,transl
 
 
 #AMR_PAIR_31
-divergence_classification: type,cause
+#no divergence
+divergence_classification:
 
 # ::id lpp_en.31 ::annotator lpp_1943.564
 # ::tok Do not go . 
-(g / go-02 :polarity - :mode imperative
+(g / go-02 :polarity -
+	:mode imperative
 	:ARG0 (y / you))
 	
 # ::id lpp_es.31 ::annotator NMA
@@ -765,7 +767,7 @@ divergence_classification: type,cause
 	
 
 #AMR_PAIR_32
-divergence_classification: type,cause
+divergence_classification: focus,anno
 
 # ::id lpp_en.32 ::annotator lpp_1943.568 
 # ::tok But there is nobody here to judge !
@@ -783,7 +785,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_33
-divergence_classification: type,cause
+#no divergence
+divergence_classification:
 
 # ::id lpp_en.33 ::annotator lpp_1943.578
 # ::tok It is much more difficult to judge oneself than to judge others .
@@ -809,7 +812,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_34
-divergence_classification: type,cause
+divergence_classification: diffnoncore,transl diffnoncore,transl omitarg,anno
 
 # ::id lpp_en.34 ::annotator lpp_1943.610
 # ::tok That is a queer hat you are wearing . 
@@ -828,7 +831,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_35
-divergence_classification: type,cause
+divergence_classification: diffarg,lang omitnoncore,transl
 
 # ::id lpp_en.35 ::annotator lpp_1943.624
 # ::tok Conceited people never hear anything but praise . 
@@ -851,7 +854,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_36
-divergence_classification: type,cause
+divergence_classification: omitnoncore,transl
 
 # ::id lpp_en.36 ::annotator lpp_1943.627
 # ::tok To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . 
@@ -894,7 +897,8 @@ divergence_classification: type,cause
 			
 			
 #AMR_PAIR_37
-divergence_classification: type,cause
+#no divergence
+divergence_classification:
 
 # ::id lpp_en.37 ::annotator lpp_1943.638
 # ::tok " I am drinking , " replied the tippler , with a lugubrious air . 
@@ -916,7 +920,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_38
-divergence_classification: type,cause
+divergence_classification: diffarg,lang
 
 # ::id lpp_en.38 ::annotator lpp_1943.649
 # ::tok The fourth planet belonged to a businessman . 
@@ -935,7 +939,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_39
-divergence_classification: type,cause
+divergence_classification: omitnoncore,lang
 
 # ::id lpp_en.39 ::annotator lpp_1943.667
 # ::tok I have so much to do ! 
@@ -954,7 +958,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_40
-divergence_classification: type,cause
+divergence_classification: omitnoncore,lang omitarg,lang diffarg,anno
 
 # ::id lpp_en.40 ::annotator lpp_1943.682
 # ::tok The businessman suddenly realized that there was no hope of being left in peace until he answered this question . 
@@ -992,7 +996,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_41
-divergence_classification: type,cause
+divergence_classification: omitnoncore,lang
 
 # ::id lpp_en.41 ::annotator lpp_1943.722
 # ::tok When you find a diamond that belongs to nobody , it is yours . 
@@ -1012,13 +1016,14 @@ divergence_classification: type,cause
 	:ARG1 t
 	:condición (e / encontrar
 		:ARG1 (d / diamante
-			:ARG0-de (p / pertenecer :polaridad -
+			:ARG0-de (p / pertenecer
+				:polaridad -
 				:ARG1 (n / nadie)))
 		:ARG0 (t / tú)))
 
 
 #AMR_PAIR_42
-divergence_classification: type,cause
+divergence_classification: focus,lang
 
 # ::id lpp_en.42 ::annotator lpp_1943.757
 # ::tok There was just enough room on it for a street lamp and a lamplighter . 
@@ -1047,7 +1052,8 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_43
-divergence_classification: type,cause
+#no divergence
+divergence_classification:
 
 # ::id lpp_en.43 ::annotator lpp_1943.779
 # ::tok Orders are orders . 
@@ -1061,7 +1067,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_44
-divergence_classification: type,cause
+divergence_classification: focus,anno
 
 # ::id lpp_en.44 ::annotator lpp_1943.811
 # ::tok When you want to rest , you will walk - - and the day will last as long as you like . 
@@ -1095,7 +1101,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_45
-divergence_classification: type,cause
+divergence_classification: diffarg,lang
 
 # ::id lpp_en.45 ::annotator lpp_1943.815
 # ::tok " I am unlucky , " said the lamplighter . 
@@ -1117,7 +1123,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_46
-divergence_classification: type,cause
+divergence_classification: diffarg,lang
 
 # ::id lpp_en.46 ::annotator lpp_1943.944
 # ::tok It is unnecessary . 
@@ -1135,7 +1141,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_47
-divergence_classification: type,cause
+divergence_classification: diffarg,anno
 
 # ::id lpp_en.47 ::annotator lpp_1943.1046
 # ::tok " I am right here , " the voice said , " under the apple tree . " 
@@ -1160,7 +1166,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_48
-divergence_classification: type,cause
+divergence_classification: switch,lang diffnoncore,lang
 
 # ::id lpp_en.48 ::annotator lpp_1943.1189
 # ::tok " They are in a great hurry , " said the little prince .  
@@ -1183,7 +1189,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_49
-divergence_classification: type,cause
+divergence_classification: focus,anno
 
 # ::id lpp_en.49 ::annotator lpp_1943.1213
 # ::tok Computations have been made by experts .
@@ -1201,7 +1207,7 @@ divergence_classification: type,cause
 
 
 #AMR_PAIR_50
-divergence_classification: type,cause
+divergence_classification: diffarg,transl diffnoncore,transl
 
 # ::id lpp_en.50 ::annotator lpp_1943.1298
 # ::tok Give me some of it to drink ... 
@@ -1219,7 +1225,8 @@ divergence_classification: type,cause
 
 # ::id lpp_es.50 ::annotator NMA
 # ::tok Dame algo de beber ...
-(d / dar :modo imperativo
+(d / dar
+	:modo imperativo
 	:ARG0 (t / tú)
 	:ARG2 (y / yo)
 	:ARG1 (a / algo
