@@ -667,6 +667,7 @@ divergence_classification: diffarg,transl omitarg,anno
 
 # ::id lpp_es.26 ::annotator NMA
 # ::tok " No puedo evitarlo " , respondió el principito , verdaderamente avergonzado .
+# ::literal_translation "I can't avoid it," replied the little prince, truly ashamed.
 (r / responder
 	:ARG0 (p / príncipe
 		:mod (p2 / pequeño))
@@ -695,6 +696,7 @@ divergence_classification: diffnoncore,transl diffnoncore,lang
 
 # ::id lpp_es.27 ::annotator NMA
 # ::tok He tenido un largo viaje y no he dormido nada ...
+# ::literal_translation I have had a long journey and I have not slept at all ...
 (y / y
 	:op1 (t / tener
 		:ARG0 (y2 / yo)
@@ -720,6 +722,7 @@ divergence_classification: focus,lang
 
 # ::id lpp_es.28 ::annotator NMA
 # ::tok Hace años que no veo a nadie bostezar .
+# ::literal_translation It is years that I haven't seen anyone yawn.
 (v / ver :polaridad -
 	:ARG0 (y / yo)
 	:ARG1 (b / bostezar
@@ -742,6 +745,7 @@ divergence_classification: omitarg,lang diffnoncore,anno
 
 # ::id lpp_es.29 ::annotator NMA
 # ::tok Era un monarca absoluto .
+# ::literal_translation He was an absolute monarch.
 (m / monarca
 	:masc m
 	:campo (e / entidad
@@ -765,6 +769,7 @@ divergence_classification: omitnoncore,transl
 
 # ::id lpp_es.30 ::annotator NMA
 # ::tok ¿ Me puedo sentar ? , preguntó tímidamente el principito .
+# ::literal_translation Can I sit ? timidly asked the little prince.
 (p / preguntar
 	:ARG0 (p2/ príncipe
 		:mod (p3 / pequeño))
@@ -786,6 +791,7 @@ divergence_classification:
 	
 # ::id lpp_es.31 ::annotator NMA
 # ::tok No te vayas .
+# ::literal_translation Do not go.
 (i / ir :polaridad - 
 	:modo imperativo
 	:ARG0 (t / tú))
@@ -802,6 +808,7 @@ divergence_classification: focus,anno
 	
 # ::id lpp_es.32 ::annotator NMA
 # ::tok ¡ Pero aquí no hay nadie a quien juzgar !
+# ::literal_translation But here there is nobody to judge!
 (c / contrastar 
 	:ARG2 (n / nadie
 		:polaridad -
@@ -826,6 +833,7 @@ divergence_classification:
 		
 # ::id lpp_es.33 ::annotator NMA
 # ::tok Es mucho más difícil juzgarse a sí mismo que juzgar a otros .
+# ::literal_translation It is much more difficult to judge yourself than to judge others.
 (d / difícil
 	:grado (m / más
 		:grado (m2 / mucho))
@@ -848,6 +856,7 @@ divergence_classification: diffnoncore,transl diffnoncore,transl omitarg,anno
 	
 # ::id lpp_es.34 ::annotator NMA
 # ::tok ¡ Qué sombrero tan raro llevas !
+# ::literal_translation What a weird hat you wear!
 (s / sombrero
 	:mod (r / raro
 		:grado (t / tan))
@@ -869,6 +878,7 @@ divergence_classification: diffarg,lang omitnoncore,transl
 	
 # ::id lpp_es.35 ::annotator NMA
 # ::tok Los vanidosos nunca escuchan nada que no sea elogios .
+# ::literal_translation The vain never hear anything that is not praise.
 (e / escuchar :polaridad -
 	:ARG0 (p / persona
 		:mod (v / vanidoso))
@@ -903,6 +913,7 @@ divergence_classification: omitnoncore,transl
 
 # ::id lpp_es.36 ::annotator NMA
 # ::tok Admirar significa que me consideras el hombre más guapo , el mejor vestido , el más rico y el más inteligente del planeta .
+# ::literal_translation To admire means that you consider me the most handsome, the best dressed, the richest and the most intelligent man on the planet.
 (s / significar
 	:ARG1 (a / admirar)
 	:ARG0 (c / considerar
@@ -936,6 +947,7 @@ divergence_classification:
 	
 # ::id lpp_es.37 ::annotator NMA
 # ::tok " Estoy bebiendo " , respondió el bebedor , con aire lúgubre .
+# ::literal_translation "I'm drinking," replied the drinker, with gloom.
 (r / responder
 	:ARG0 (p / persona
 		:ARG0-de (b / beber))
@@ -956,6 +968,7 @@ divergence_classification: diffarg,lang
 
 # ::id lpp_es.38 ::annotator NMA
 # ::tok El cuarto planeta era de un hombre de negocios .
+# ::literal_translation The fourth planet belonged to a businessman .
 (p / pertenecer
 	:ARG0 (p2 / planeta
 		:ord (e / entidad-ordinal :valor 4))
@@ -976,6 +989,7 @@ divergence_classification: omitnoncore,lang
 
 # ::id lpp_es.39 ::annotator NMA
 # ::tok ¡ Tengo tanto que hacer !
+# ::literal_translation I have so much to do!
 (o / obligar
 	:ARG1 (y / yo)
 	:ARG2 (h / hacer
@@ -1002,6 +1016,7 @@ divergence_classification: omitnoncore,lang omitarg,lang diffarg,anno
 
 # ::id lpp_es.40 ::annotator NMA
 # ::tok De repente , el hombre de negocios se dio cuenta que no tenía ninguna esperanza de que lo dejaran en paz hasta que contestase esta pregunta .
+# ::literal_translation Suddenly, the businessman realized that he had no hope of being left in peace until he answered this question.
 (p / percatar
 	:ARG0 (h / hombre
 		:mod (n / negocio))
@@ -1036,6 +1051,7 @@ divergence_classification: omitnoncore,lang
 
 # ::id lpp_es.41 ::annotator NMA
 # ::tok Cuando encuentras un diamante que no le pertenece a nadie , es tuyo .
+# ::literal_translation When you find a diamond that doesn't belong to anyone, it's yours.
 (p2 / pertenecer
 	:ARG0 d
 	:ARG1 t
@@ -1065,6 +1081,7 @@ divergence_classification: focus,lang
 
 # ::id lpp_es.42 ::annotator NMA
 # ::tok Tenía el espacio justo para una farola y un farolero .
+# ::literal_translation It had just enough space for a lamppost and a lamplighter.
 (t / tener
 	:ARG0 (e / entidad
 		:sinnombre (s / sinnombre))
@@ -1087,6 +1104,7 @@ divergence_classification:
 	
 # ::id lpp_es.43 ::annotator NMA
 # ::tok Las órdenes son órdenes .
+# ::literal_translation Orders are orders . 
 (o / órden
 	:campo (o2 / órden))
 
@@ -1112,6 +1130,7 @@ divergence_classification: focus,transl
 
 # ::id lpp_es.44 ::annotator NMA
 # ::tok Caminarás cuando quieras descansar y el día durará tanto como quieras .
+# ::literal_translation You will walk when you want to rest and the day will last as long as you want.
 (d / durar
 	:ARG1 (d2 / día)
 	:ARG2 (t / tanto
@@ -1140,6 +1159,7 @@ divergence_classification: diffarg,lang
 		
 # ::id lpp_es.45 ::annotator NMA
 # ::tok " Soy desafortunado " , dijo el farolero .
+# ::literal_translation "I am unlucky," said the lamplighter.
 (d / decir
 	:ARG0 (f / farolero)
 	:ARG1 (a / afortunado
@@ -1158,6 +1178,7 @@ divergence_classification: diffarg,lang
 	
 # ::id lpp_es.46 ::annotator NMA
 # ::tok Es innecesario .
+# ::literal_translation It is unnecessary.
 (n / necesitar
 	:ARG1 (e / entidad
 		:sinnombre (s / sinnombre)
@@ -1181,6 +1202,7 @@ divergence_classification: diffarg,anno
 
 # ::id lpp_es.47 ::annotator NMA
 # ::tok " Estoy aquí " , dijo la voz , " debajo del manzano " .
+# ::literal_translation "I am here," said the voice, "under the apple tree."
 (d / decir
 	:ARG0 (v / voz)
 	:ARG1 (e / estar-ubicado-en-91
@@ -1204,6 +1226,7 @@ divergence_classification: switch,lang diffnoncore,lang
 		
 # ::id lpp_es.48 ::annotator NMA
 # ::tok " Tienen mucha prisa " , dijo el principito .
+# ::literal_translation "They are in a great hurry," said the little prince.
 (d / decir
 	:ARG0 (p / príncipe
 		:mod (p2 / pequeño))
@@ -1226,6 +1249,7 @@ divergence_classification: focus,anno
 		
 # ::id lpp_es.49 ::annotator NMA
 # ::tok Los expertos han hecho los cálculos .
+# ::literal_translation The experts have done the calculations.
 (c / calcular
 	:ARG0 (p / persona
 		:mod (e / experto)))
@@ -1250,6 +1274,7 @@ divergence_classification: diffarg,transl diffnoncore,transl
 
 # ::id lpp_es.50 ::annotator NMA
 # ::tok Dame algo de beber ...
+# ::literal_translation Give me something to drink ...
 (d / dar
 	:modo imperativo
 	:ARG0 (t / tú)
