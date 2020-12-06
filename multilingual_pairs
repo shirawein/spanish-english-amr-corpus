@@ -443,7 +443,7 @@ divergence_classification: focus,anno
 			
 # ::id lpp_es.18 ::annotator NMA
 # ::tok Las erupciones volcánicas son como el fuego de una chimenea .
-# ::literal_translation Volcanic eruptions are like the fire of a chinmey.
+# ::literal_translation Volcanic eruptions are like the fire of a chimney.
 (p / parecer
 	:ARG0 (e / erupción
 		:mod (v / volcánico))
@@ -599,7 +599,7 @@ divergence_classification: focus,anno
 
 # ::id lpp_es.24 ::annotator NMA
 # ::tok El principito buscó un sitio para sentarse por todos lados , pero todo el planeta estaba cubierto y obstruido por el magnífico manto de armiño del rey .
-# ::literal_translation The little prince looked everywhere for a place to sit, but the whole planet was covered and obstructed by the king's magnificent ermine cloak.
+# ::literal_translation The little prince looked everywhere for a place to sit, but the whole planet was covered and obstructed by the magnificent ermine cloak of the king.
 (c / contrastar
 	:ARG0 (b / buscar
 		:ARG0 (p / príncipe
