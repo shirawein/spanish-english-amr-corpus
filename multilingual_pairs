@@ -19,6 +19,7 @@ divergence_classification:
 		
 # ::id lpp_es.1 ::annotator NMA
 # ::tok Por tanto , puedes imaginarte mi asombro cuando una extraña vocecita me despertó al amanecer .
+# ::literal_translation Therefore, you can imagine my amazement when a strange little voice woke me up at dawn.
 (c / causar
 	:ARG1 (p / posible
 		:ARG1 (i / imaginar
@@ -48,6 +49,7 @@ divergence_classification:
 		
 # ::id lpp_es.2 ::annotator NMA
 # ::tok Él me contestó : " Eso no importa " .
+# ::literal_translation He answered me: "That doesn't matter."
 (c / contestar
 	:ARG0 (e / él)
 	:ARG1  (y / yo)
@@ -70,6 +72,7 @@ divergence_classification:
 
 # ::id lpp_es.3 ::annotator NMA
 # ::tok Dibújame una oveja ...
+# ::literal_translation Draw me a sheep ...  
 (d / dibujar
 	:ARG0 (t / tú)
 	:ARG1 (o / oveja)
@@ -91,6 +94,7 @@ divergence_classification:
 		
 # ::id lpp_es.4 ::annotator NMA
 # ::tok Todo es muy pequeño donde vivo .
+# ::literal_translation Everything is very small where I live.
 (p / pequeño
 	:campo (t / todo)
 	:grado (m / muy)
@@ -108,6 +112,7 @@ divergence_classification: omitnoncore,lang omitnoncore,lang
 
 # ::id lpp_es.5 ::annotator NMA
 # ::tok ¡ Qué gracioso !
+# ::literal_translation How funny!
 (g / gracioso
 	:grado (t / tan))
 	
@@ -123,6 +128,7 @@ divergence_classification: focus,transl
 
 # ::id lpp_es.6 ::annotator NMA
 # ::tok ¿ De qué planeta eres ?
+# ::literal_translation What planet are you from?
 (s / ser-de-91
 	:ARG1 (t / tú)
 	:ARG2 (p / planeta
@@ -144,6 +150,7 @@ divergence_classification: omitarg,anno
 		
 # ::id lpp_es.7 ::annotator NMA
 # ::tok ¿ De dónde vienes hombrecito mío ?
+# ::literal_translation Where do you come from, my little man?
 (d / decir
 	:ARG0 y
 	:ARG1 (v / venir
@@ -176,6 +183,7 @@ divergence_classification: focus,anno
 			
 # ::id lpp_es.8 ::annotator NMA
 # ::tok Cuando un astrónomo descubre uno de estos , no le asigna un nombre sino solamente un número .
+# ::literal_translation When an astronomer discovers one of these, he does not assign it a name but only a number.
 (e / en-vez-de-91
 	:ARG1 (a3 / asignar
 		:ARG0 a
@@ -209,6 +217,7 @@ divergence_classification: diffarg,anno
 		
 # ::id lpp_es.9 ::annotator NMA
 # ::tok Los niños siempre deberían mostrarse muy pacientes con los mayores .
+# ::literal_translation Children should always be very patient with their elders.
 (r / recomendar
 	:ARG1 (m / mostrar
 		:ARG0 (n / niño)
@@ -235,6 +244,7 @@ divergence_classification: diffarg,anno
 			
 # ::id lpp_es.10 ::annotator NMA
 # ::tok Pero sin duda , para los que entendemos la vida , las cifras son asuntos de indiferencia .
+# ::literal_translation But without a doubt, for those of us who understand life, the figures are matters of indifference.
 (c / contrastar
 	:ARG2 (o / opinar
 		:ARG0 (p / persona
@@ -259,6 +269,7 @@ divergence_classification: switch,anno
 				
 # ::id lpp_es.11 ::annotator NMA
 # ::tok Olvidar a un amigo es triste .
+# ::literal_translation To forget a friend is sad.
 (t / triste
 	:campo (o / olvidar
 		:ARG1 (p / persona
@@ -280,6 +291,7 @@ divergence_classification: diffarg,anno
 			
 # ::id lpp_es.12 ::annotator NMA
 # ::tok No todos han tenido un amigo .
+# ::literal_translation Not everyone has had a friend.
 (t / tener :polaridad -
 	:ARG0 (p / persona
 		:mod (t2 / todo))
@@ -304,6 +316,7 @@ divergence_classification: diffarg,anno
 			
 # ::id lpp_es.13 ::annotator NMA
 # ::tok Pero no tengo el éxito asegurado para nada .
+# ::literal_translation But I do not have success guaranteed at all.
 (c /  contrastar
 	:ARG2 (t / tener :polaridad -
 		:ARG0 (y / yo)
@@ -325,6 +338,7 @@ divergence_classification:
 			
 # ::id lpp_es.14 ::annotator NMA
 # ::tok Pero el principito no respondió .
+# ::literal_translation But the little prince did not answer .
 (c / contrastar
 	:ARG2 (r / responder :polaridad -
 		:ARG0 (p / príncipe
@@ -353,6 +367,7 @@ divergence_classification: diffnoncore,transl
 					
 # ::id lpp_es.15 ::annotator NMA
 # ::tok Y me quedaba tan poca agua potable que me temía lo peor .
+# ::literal_translation And I had so little drinking water left that I feared the worst.
 (y2 / y
 	:op1 (c / causar
 		:ARG0 (q / quedar
@@ -384,6 +399,7 @@ divergence_classification: diffnoncore,transl
 			
 # ::id lpp_es.16 ::annotator NMA
 # ::tok " Creo que es la hora de desayunar " , añadió ella al instante .
+# ::literal_translation "I think it's time for breakfast," she added instantly.
 (a / añadir
 	:ARG0 (e / ella)
 	:ARG1 (c / creer
@@ -406,6 +422,7 @@ divergence_classification: omitnoncore,transl omitnoncore,anno
 			
 # ::id lpp_es.17 ::annotator NMA
 # ::tok Pero , como dijo él , " ¡ Nunca se sabe ! " .
+# ::literal_translation But, as he said, "You never know!"
 (c / contrastar
 	:ARG2 (d / decir
 		:ARG0 (e / él)
@@ -426,6 +443,7 @@ divergence_classification: focus,anno
 			
 # ::id lpp_es.18 ::annotator NMA
 # ::tok Las erupciones volcánicas son como el fuego de una chimenea .
+# ::literal_translation Volcanic eruptions are like the fire of a chinmey.
 (p / parecer
 	:ARG0 (e / erupción
 		:mod (v / volcánico))
@@ -450,6 +468,7 @@ divergence_classification:
 		
 # ::id lpp_es.19 ::annotator NMA
 # ::tok El creyó que nunca querría volver .
+# ::literal_translation He believed that he would never want to return.
 (c / creer
 	:ARG0 (e / él)
 	:ARG1 (q / querer :polaridad -
@@ -474,6 +493,7 @@ divergence_classification:
 	
 # ::id lpp_es.20 ::annotator NMA
 # ::tok Te pido perdón .
+# ::literal_translation I ask you forgiveness.
 (p / pedir
 	:ARG0 (y / yo)
 	:ARG1 (p2 / perdonar
