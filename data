@@ -103,7 +103,7 @@ divergence_classification:
 	
 	
 #AMR_PAIR_5
-divergence_classification: omitnoncore,lang omitnoncore,lang
+divergence_classification: omitnoncore,synt omitnoncore,synt
 
 # ::id lpp_en.5 ::annotator lpp_1943.118
 # ::tok That is funny !   
@@ -118,7 +118,7 @@ divergence_classification: omitnoncore,lang omitnoncore,lang
 	
 	
 #AMR_PAIR_6
-divergence_classification: focus,transl
+divergence_classification: focus,sem
 
 # ::id lpp_en.6 ::annotator lpp_1943.122 
 # ::tok Which is your planet ?
@@ -346,7 +346,7 @@ divergence_classification:
 
 
 #AMR_PAIR_15
-divergence_classification: diffnoncore,transl	
+divergence_classification: diffnoncore,sem	
 
 # ::id lpp_en.15 ::annotator lpp_1943.300
 # ::tok And I had so little drinking-water left that I had to fear for the worst .
@@ -383,7 +383,7 @@ divergence_classification: diffnoncore,transl
 							
 							
 #AMR_PAIR_16
-divergence_classification: diffnoncore,transl	
+divergence_classification: diffnoncore,sem	
 
 # ::id lpp_en.16 ::annotator lpp_1943.394
 # ::tok " I think it is time for breakfast , " she added an instant later . 
@@ -410,7 +410,7 @@ divergence_classification: diffnoncore,transl
 
 
 #AMR_PAIR_17
-divergence_classification: omitnoncore,transl omitnoncore,anno	
+divergence_classification: omitnoncore,sem omitnoncore,anno	
 
 # ::id lpp_en.17 ::annotator lpp_1943.438
 # ::tok But , as he said , " One never knows ! "
@@ -623,7 +623,7 @@ divergence_classification: focus,anno
 			
 
 #AMR_PAIR_25
-divergence_classification: diffarg,anno diffarg,lang	
+divergence_classification: diffarg,anno diffarg,synt	
 
 # ::id lpp_en.25 ::annotator lpp_1943.493
 # ::tok " It is contrary to etiquette to yawn in the presence of a king , " the monarch said to him . 
@@ -650,7 +650,7 @@ divergence_classification: diffarg,anno diffarg,lang
 
 
 #AMR_PAIR_26
-divergence_classification: diffarg,transl omitarg,anno
+divergence_classification: diffarg,sem omitarg,anno
 
 # ::id lpp_en.26 ::annotator lpp_1943.496
 # ::tok “ I can 't stop myself , " replied the little prince , thoroughly embarrassed .
@@ -681,7 +681,7 @@ divergence_classification: diffarg,transl omitarg,anno
 
 
 #AMR_PAIR_27
-divergence_classification: diffnoncore,transl diffnoncore,lang
+divergence_classification: diffnoncore,sem diffnoncore,synt
 
 # ::id lpp_en.27 ::annotator lpp_1943.497
 # ::tok I have come on a long journey , and I have had no sleep ... 
@@ -708,7 +708,7 @@ divergence_classification: diffnoncore,transl diffnoncore,lang
 
 
 #AMR_PAIR_28
-divergence_classification: focus,lang
+divergence_classification: focus,synt
 
 # ::id lpp_en.28 ::annotator lpp_1943.500
 # ::tok It is years since I have seen anyone yawning .
@@ -735,7 +735,7 @@ divergence_classification: focus,lang
 
 
 #AMR_PAIR_29
-divergence_classification: omitarg,lang diffnoncore,anno
+divergence_classification: omitarg,synt diffnoncore,anno
 
 # ::id lpp_en.29 ::annotator lpp_1943.513
 # ::tok He was an absolute monarch .
@@ -754,7 +754,7 @@ divergence_classification: omitarg,lang diffnoncore,anno
 	
 
 #AMR_PAIR_30
-divergence_classification: omitnoncore,transl
+divergence_classification: omitnoncore,sem
 
 # ::id lpp_en.30 ::annotator lpp_1943.517
 # ::tok " May I sit down ? " came now a timid inquiry from the little prince . 
@@ -845,7 +845,7 @@ divergence_classification:
 
 
 #AMR_PAIR_34
-divergence_classification: diffnoncore,transl diffnoncore,transl omitarg,anno
+divergence_classification: diffnoncore,sem diffnoncore,sem omitarg,anno
 
 # ::id lpp_en.34 ::annotator lpp_1943.610
 # ::tok That is a queer hat you are wearing . 
@@ -865,7 +865,7 @@ divergence_classification: diffnoncore,transl diffnoncore,transl omitarg,anno
 
 
 #AMR_PAIR_35
-divergence_classification: diffarg,lang omitnoncore,transl
+divergence_classification: diffarg,synt omitnoncore,sem
 
 # ::id lpp_en.35 ::annotator lpp_1943.624
 # ::tok Conceited people never hear anything but praise . 
@@ -889,7 +889,7 @@ divergence_classification: diffarg,lang omitnoncore,transl
 
 
 #AMR_PAIR_36
-divergence_classification: omitnoncore,transl
+divergence_classification: omitnoncore,sem
 
 # ::id lpp_en.36 ::annotator lpp_1943.627
 # ::tok To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . 
@@ -957,7 +957,7 @@ divergence_classification:
 
 
 #AMR_PAIR_38
-divergence_classification: diffarg,lang
+divergence_classification: diffarg,synt
 
 # ::id lpp_en.38 ::annotator lpp_1943.649
 # ::tok The fourth planet belonged to a businessman . 
@@ -977,7 +977,7 @@ divergence_classification: diffarg,lang
 
 
 #AMR_PAIR_39
-divergence_classification: omitnoncore,lang
+divergence_classification: omitnoncore,synt
 
 # ::id lpp_en.39 ::annotator lpp_1943.667
 # ::tok I have so much to do ! 
@@ -997,7 +997,7 @@ divergence_classification: omitnoncore,lang
 
 
 #AMR_PAIR_40
-divergence_classification: omitnoncore,lang omitarg,lang diffarg,anno
+divergence_classification: omitnoncore,synt omitarg,synt diffarg,anno
 
 # ::id lpp_en.40 ::annotator lpp_1943.682
 # ::tok The businessman suddenly realized that there was no hope of being left in peace until he answered this question . 
@@ -1036,7 +1036,7 @@ divergence_classification: omitnoncore,lang omitarg,lang diffarg,anno
 
 
 #AMR_PAIR_41
-divergence_classification: omitnoncore,lang
+divergence_classification: omitnoncore,synt
 
 # ::id lpp_en.41 ::annotator lpp_1943.722
 # ::tok When you find a diamond that belongs to nobody , it is yours . 
@@ -1064,7 +1064,7 @@ divergence_classification: omitnoncore,lang
 
 
 #AMR_PAIR_42
-divergence_classification: focus,lang
+divergence_classification: focus,synt
 
 # ::id lpp_en.42 ::annotator lpp_1943.757
 # ::tok There was just enough room on it for a street lamp and a lamplighter . 
@@ -1110,7 +1110,7 @@ divergence_classification:
 
 
 #AMR_PAIR_44
-divergence_classification: focus,transl
+divergence_classification: focus,sem
 
 # ::id lpp_en.44 ::annotator lpp_1943.811
 # ::tok When you want to rest , you will walk - - and the day will last as long as you like . 
@@ -1145,7 +1145,7 @@ divergence_classification: focus,transl
 
 
 #AMR_PAIR_45
-divergence_classification: diffarg,lang
+divergence_classification: diffarg,synt
 
 # ::id lpp_en.45 ::annotator lpp_1943.815
 # ::tok " I am unlucky , " said the lamplighter . 
@@ -1168,7 +1168,7 @@ divergence_classification: diffarg,lang
 
 
 #AMR_PAIR_46
-divergence_classification: diffarg,lang
+divergence_classification: diffarg,synt
 
 # ::id lpp_en.46 ::annotator lpp_1943.944
 # ::tok It is unnecessary . 
@@ -1213,7 +1213,7 @@ divergence_classification: diffarg,anno
 
 
 #AMR_PAIR_48
-divergence_classification: switch,lang diffnoncore,lang
+divergence_classification: switch,synt diffnoncore,synt
 
 # ::id lpp_en.48 ::annotator lpp_1943.1189
 # ::tok " They are in a great hurry , " said the little prince .  
@@ -1256,7 +1256,7 @@ divergence_classification: focus,anno
 
 
 #AMR_PAIR_50
-divergence_classification: diffarg,transl diffnoncore,transl
+divergence_classification: diffarg,sem diffnoncore,sem
 
 # ::id lpp_en.50 ::annotator lpp_1943.1298
 # ::tok Give me some of it to drink ... 
