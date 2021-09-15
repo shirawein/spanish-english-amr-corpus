@@ -1,4 +1,4 @@
-# spanish-english-amr-corpus
+# Classifying Divergences in Cross-lingual AMR Pairs
 
 
 This repository contains structural divergence categorization annotation for the 50 pairs of Spanish-English AMR annotations from the Little Prince Corpus, annotated by Noelia Migueles Abraira in the following publication:
