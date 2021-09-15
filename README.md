@@ -5,4 +5,5 @@ This repository contains structural divergence categorization annotation for the
 
  A Study Towards Spanish Abstract Meaning Representation. Master Thesis, University of the Basque Country UPV/EHU. June 2017.(https://addi.ehu.es/handle/10810/22056)
  
- The structural divergence categorization system for multilingual AMR pairs used here was developed by Shira Wein in 2020.
+ The structural divergence categorization system for multilingual AMR pairs used here was developed by Shira Wein and Nathan Schneider in 2020.
+ 
